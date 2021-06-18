@@ -58,6 +58,8 @@
 
 ## print_list()
 
+Теперь нам нужен какой-то способ проверить наш `append` метод, где мы можем распечатать узлы связанного списка. Для этого создадим метод с именем `print_list()`.
+
         def print_list(self):
             cur_node = self.head
             while cur_node:
